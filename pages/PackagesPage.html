@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Packages</title>
+</head>
+
+<body>
+    <h1>Packages</h1>
+    <form id="packageForm">
+        <label for="packageName">Package Name:</label>
+        <input type="text" id="packageName" name="packageName" required><br>
+
+        <label for="description">Description:</label>
+        <textarea id="description" name="description"></textarea><br>
+
+        <label for="price">Price:</label>
+        <input type="number" id="price" name="price" required><br>
+
+        <button type="submit">Add Package</button>
+    </form>
+
+    <h2>Available Packages</h2>
+    <ul id="packagesList">
+        <!-- Package details will be displayed here -->
+    </ul>
+</body>
+
+</html>

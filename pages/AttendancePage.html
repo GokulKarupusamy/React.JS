@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance</title>
+</head>
+
+<body>
+    <h1>Attendance</h1>
+    <form id="attendanceForm">
+        <label for="clientID">Scan QR Code or Enter Client ID:</label>
+        <input type="text" id="clientID" name="clientID" required><br>
+
+        <button type="submit">Mark Attendance</button>
+    </form>
+
+    <h2>Attendance Records</h2>
+    <table id="attendanceTable" border="1">
+        <tr>
+            <th>Client ID</th>
+            <th>Name</th>
+            <th>Date</th>
+            <th>Time</th>
+        </tr>
+        <!-- Attendance records will be displayed here -->
+    </table>
+</body>
+
+</html>
